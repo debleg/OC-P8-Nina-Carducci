@@ -42,12 +42,20 @@ body {
 	width: 20px;
 }
 
+.carousel-item img {
+	height: auto;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+}
+
+#about img {
+	height: auto;
 }
 
 .picture.left::before {
@@ -196,6 +204,10 @@ body {
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
+}
+
+#contact img {
+	height: auto;
 }
 
 #contact .container {
